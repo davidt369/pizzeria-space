@@ -1,48 +1,109 @@
-# Astro Starter Kit: Basics
+# 🚀 Pizzas Space - Sitio Web
 
-```sh
-npm create astro@latest -- --template basics
+[![Sitio Web](https://img.shields.io/badge/Web-Pizzas%20Space-green)](https://pizzeria-space.vercel.app/)
+[![Framework](https://img.shields.io/badge/Framework-Astro-orange)](https://astro.build)
+[![Estilo](https://img.shields.io/badge/Estilo-Tailwind%20CSS-blue)](https://tailwindcss.com)
+
+## 📝 Descripción
+
+Pizzas Space es un sitio web moderno para una pizzería temática espacial ubicada en Cochabamba, Bolivia. El proyecto fue desarrollado utilizando Astro, un moderno framework web que ofrece rendimiento excepcional y una experiencia de desarrollo fluida.
+
+🌐 **[Visitar Sitio Web](https://pizzeria-space.vercel.app/)**
+
+## 🛠️ Tecnologías Utilizadas
+
+- **[Astro](https://astro.build)**: Framework web principal
+  - Rendimiento optimizado con Zero-JavaScript por defecto
+  - Componentes islas para interactividad selectiva
+  - Enrutamiento basado en archivos
+  - Transiciones de vista para navegación fluida
+
+- **[Tailwind CSS](https://tailwindcss.com)**: Framework de estilos
+  - Diseño responsive
+  - Utilidades de clase para estilizado rápido
+  - Personalización del tema espacial
+
+## 🌟 Características
+
+- ⚡ **Rendimiento Optimizado**: Puntuación perfecta en Lighthouse
+- 📱 **Diseño Responsive**: Experiencia perfecta en todos los dispositivos
+- 🎨 **Tema Espacial**: Diseño único con elementos cósmicos
+- 🔄 **Transiciones Suaves**: Navegación fluida entre páginas
+- 🌍 **Internacionalización**: Contenido en español
+
+## 📂 Estructura del Proyecto
+
+```
+src/
+├── components/     # Componentes reutilizables
+│   ├── inicio/    # Componentes de la página principal
+│   ├── menu/      # Componentes del menú
+│   └── location/  # Componentes de ubicación
+├── layouts/       # Plantillas de página
+└── pages/         # Rutas de la aplicación
+    ├── index.astro
+    ├── menu.astro
+    ├── sobre-nosotros.astro
+    └── ubicacion.astro
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## ⚡ ¿Por qué Astro?
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Astro fue elegido por varias razones clave:
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+1. **Rendimiento Excepcional**: 
+   - Generación de sitios estáticos
+   - Zero-JavaScript por defecto
+   - Carga selectiva de JavaScript
 
-## 🚀 Project Structure
+2. **Desarrollo Eficiente**:
+   - Sintaxis familiar similar a HTML/JSX
+   - Componentes islas para optimizar la interactividad
+   - Soporte integrado para Tailwind CSS
 
-Inside of your Astro project, you'll see the following folders and files:
+3. **SEO Optimizado**:
+   - Generación de HTML estático
+   - Metadatos personalizables
+   - Rendimiento optimizado
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+4. **Experiencia de Usuario**:
+   - Navegación instantánea
+   - Transiciones de página suaves
+   - Carga progresiva de contenido
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🚀 Despliegue
 
-## 🧞 Commands
+El sitio está desplegado en Vercel, aprovechando:
 
-All commands are run from the root of the project, from a terminal:
+- Despliegue automático desde GitHub
+- SSL/TLS incluido
+- CDN global
+- Análisis de rendimiento integrado
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 🎨 Tema y Diseño
 
-## 👀 Want to learn more?
+El diseño sigue un tema espacial consistente:
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- **Paleta de Colores**:
+  - Verde primario (`#22c55e`)
+  - Fondo oscuro (`#0f172a`)
+  - Acentos en blanco y gris
+
+- **Elementos Espaciales**:
+  - Iconografía cósmica
+  - Efectos de brillo y gradientes
+  - Animaciones suaves
+
+## 🤝 Contribución
+
+¿Tienes ideas para mejorar Pizzas Space? ¡Las contribuciones son bienvenidas!
+
+1. Fork el repositorio
+2. Crea una rama para tu feature
+3. Haz commit de tus cambios
+4. Push a la rama
+5. Abre un Pull Request
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
