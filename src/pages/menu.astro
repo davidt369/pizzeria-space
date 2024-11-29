@@ -1,0 +1,49 @@
+---
+import Layout from "../layouts/Layout.astro";
+import MenuCard from "../components/menu/MenuCard.astro";
+---
+
+<Layout title="Menú - Pizzas Space">
+    <main class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold text-center text-white mb-12">Nuestro Menú 🍕</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <MenuCard
+                title="Pizza Margherita"
+                price="120.99"
+                description="Salsa de tomate, mozzarella fresca y albahaca"
+                image="/pizzas/margherita.webp"
+            />
+            <MenuCard
+                title="Pizza Pepperoni"
+                price="140.99"
+                description="Pepperoni, salsa de tomate y queso mozzarella"
+                image="/pizzas/peperoni.webp"
+            />
+            <MenuCard
+                title="Pizza Vegetariana"
+                price="130.99"
+                description="Pimientos, champiñones, cebolla, aceitunas y queso"
+                image="/pizzas/vegetariana.webp"
+            />
+            <MenuCard
+                title="Pizza Hawaiana"
+                price="150.99"
+                description="Jamón, piña, salsa de tomate y queso mozzarella"
+                image="/pizzas/hawaiana.webp"
+            />
+            <MenuCard
+                title="Pizza BBQ"
+                price="160.99"
+                description="Pollo, salsa BBQ, cebolla roja y queso mozzarella"
+                image="/pizzas/bqq.webp"
+            />
+            <MenuCard
+                title="Pizza Suprema"
+                price="170.99"
+                description="Pepperoni, pimientos, champiñones, cebolla y aceitunas"
+                image="/pizzas/suprema.webp"
+            />
+        </div>
+    </main>
+</Layout>

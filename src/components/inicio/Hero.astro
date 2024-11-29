@@ -1,0 +1,65 @@
+---
+// Hero.astro
+---
+<section class="relative min-h-screen flex items-center justify-center">
+    <div class="absolute inset-0 z-0">
+        <img 
+            src="/src/assets/inicio/portada.webp" 
+            alt="Pizza artesanal con ingredientes frescos" 
+            class="w-full h-full object-cover opacity-90"
+        />
+        <div class="absolute inset-0 bg-gradient-to-b from-black/70 to-black/50"></div>
+    </div>
+    
+    <div class="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
+        <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+            Pizzas Space 
+            <span class="inline-block animate-bounce">🚀</span>
+        </h1>
+        
+        <p class="text-lg md:text-xl mb-6 leading-relaxed">
+            Embárcate en un viaje gastronómico por el cosmos desde el corazón de Cochabamba. 
+            Descubre sabores que desafían la gravedad con nuestras pizzas artesanales, 
+            preparadas con ingredientes selectos y técnicas tradicionales.
+        </p>
+
+        <p class="text-green-400 text-lg mb-8 font-medium">
+            ¡Más de 15 años creando experiencias celestiales! 
+            <span class="inline-block">⭐</span>
+        </p>
+
+        <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
+            <a 
+                href="/menu" 
+                class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 inline-flex items-center group"
+            >
+                <span>Explorar Menú</span>
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                    class="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform" 
+                    viewBox="0 0 20 20" 
+                    fill="currentColor"
+                >
+                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+            </a>
+            <a 
+                href="/sobre-nosotros" 
+                class="border-2 border-green-500 hover:bg-green-500/20 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105"
+            >
+                Conócenos
+            </a>
+        </div>
+    </div>
+
+    <div class="absolute bottom-8 left-0 right-0 text-center animate-bounce">
+        <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            class="h-6 w-6 mx-auto text-white opacity-75" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="currentColor"
+        >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+        </svg>
+    </div>
+</section>
